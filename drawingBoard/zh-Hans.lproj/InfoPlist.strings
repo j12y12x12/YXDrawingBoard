@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.string.strings
+  drawingBoard
+
+  Created by jin on 2019/8/24.
+  Copyright © 2019 yxdraw. All rights reserved.
+*/
+
+CFBundleDisplayName = "哈哈";

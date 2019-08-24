@@ -33,7 +33,7 @@
     }];
     
     btn.backgroundColor = [UIColor grayColor];
-    [btn setTitle:@"按钮" forState:UIControlStateNormal];
+    [btn setTitle:NSLocalizedString(@"haha",nil) forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     
 }

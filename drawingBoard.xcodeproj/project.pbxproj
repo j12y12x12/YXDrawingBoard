@@ -26,7 +26,10 @@
 		9161AC182311167700CD29E2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9161AC0C2311167700CD29E2 /* MASConstraint.m */; };
 		9161AC192311167700CD29E2 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9161AC0E2311167700CD29E2 /* MASViewConstraint.m */; };
 		9161AC1A2311167700CD29E2 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9161AC0F2311167700CD29E2 /* MASViewAttribute.m */; };
-		9161AC1B2311167700CD29E2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9161AC102311167700CD29E2 /* Info.plist */; };
+		9161AC1F23111F7100CD29E2 /* UIView+UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9161AC1D23111F7100CD29E2 /* UIView+UIViewExt.m */; };
+		9161AC222311202100CD29E2 /* YXImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9161AC212311202100CD29E2 /* YXImageManager.m */; };
+		9161AC2723112CC400CD29E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9161AC2923112CC400CD29E2 /* InfoPlist.strings */; };
+		9161AC2E23112D9900CD29E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9161AC3023112D9900CD29E2 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +94,16 @@
 		9161AC0D2311167700CD29E2 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		9161AC0E2311167700CD29E2 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		9161AC0F2311167700CD29E2 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		9161AC102311167700CD29E2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9161AC1D23111F7100CD29E2 /* UIView+UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewExt.m"; sourceTree = "<group>"; };
+		9161AC1E23111F7100CD29E2 /* UIView+UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewExt.h"; sourceTree = "<group>"; };
+		9161AC202311202100CD29E2 /* YXImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXImageManager.h; sourceTree = "<group>"; };
+		9161AC212311202100CD29E2 /* YXImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXImageManager.m; sourceTree = "<group>"; };
+		9161AC2323112C2500CD29E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		9161AC2423112C2500CD29E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		9161AC2A23112CD700CD29E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		9161AC2B23112D1D00CD29E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9161AC2F23112D9900CD29E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9161AC3123112DA100CD29E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,7 @@
 		910A5F112310ED480076F020 = {
 			isa = PBXGroup;
 			children = (
+				9161AC1C23111F5D00CD29E2 /* tools */,
 				9161ABF52311166D00CD29E2 /* 3rdParty */,
 				910A5F1C2310ED480076F020 /* drawingBoard */,
 				910A5F352310ED4A0076F020 /* drawingBoardTests */,
@@ -149,6 +162,8 @@
 				910A5F212310ED480076F020 /* ViewController.m */,
 				9161ABF1231114EB00CD29E2 /* YXNavigationController.h */,
 				9161ABF2231114EB00CD29E2 /* YXNavigationController.m */,
+				9161AC3023112D9900CD29E2 /* Localizable.strings */,
+				9161AC2923112CC400CD29E2 /* InfoPlist.strings */,
 				910A5F232310ED480076F020 /* Main.storyboard */,
 				910A5F262310ED4A0076F020 /* Assets.xcassets */,
 				910A5F282310ED4A0076F020 /* LaunchScreen.storyboard */,
@@ -213,9 +228,19 @@
 				9161AC0D2311167700CD29E2 /* ViewController+MASAdditions.h */,
 				9161AC0E2311167700CD29E2 /* MASViewConstraint.m */,
 				9161AC0F2311167700CD29E2 /* MASViewAttribute.m */,
-				9161AC102311167700CD29E2 /* Info.plist */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		9161AC1C23111F5D00CD29E2 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				9161AC1E23111F7100CD29E2 /* UIView+UIViewExt.h */,
+				9161AC1D23111F7100CD29E2 /* UIView+UIViewExt.m */,
+				9161AC202311202100CD29E2 /* YXImageManager.h */,
+				9161AC212311202100CD29E2 /* YXImageManager.m */,
+			);
+			path = tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +328,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 910A5F112310ED480076F020;
 			productRefGroup = 910A5F1B2310ED480076F020 /* Products */;
@@ -321,8 +347,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9161AC1B2311167700CD29E2 /* Info.plist in Resources */,
+				9161AC2E23112D9900CD29E2 /* Localizable.strings in Resources */,
 				910A5F2A2310ED4A0076F020 /* LaunchScreen.storyboard in Resources */,
+				9161AC2723112CC400CD29E2 /* InfoPlist.strings in Resources */,
 				910A5F272310ED4A0076F020 /* Assets.xcassets in Resources */,
 				910A5F252310ED480076F020 /* Main.storyboard in Resources */,
 			);
@@ -353,11 +380,13 @@
 				9161AC1A2311167700CD29E2 /* MASViewAttribute.m in Sources */,
 				9161ABF3231114EB00CD29E2 /* YXNavigationController.m in Sources */,
 				910A5F222310ED480076F020 /* ViewController.m in Sources */,
+				9161AC1F23111F7100CD29E2 /* UIView+UIViewExt.m in Sources */,
 				9161AC162311167700CD29E2 /* NSArray+MASAdditions.m in Sources */,
 				9161AC122311167700CD29E2 /* ViewController+MASAdditions.m in Sources */,
 				9161AC132311167700CD29E2 /* MASCompositeConstraint.m in Sources */,
 				910A5F2D2310ED4A0076F020 /* main.m in Sources */,
 				9161AC172311167700CD29E2 /* View+MASAdditions.m in Sources */,
+				9161AC222311202100CD29E2 /* YXImageManager.m in Sources */,
 				9161AC142311167700CD29E2 /* MASConstraintMaker.m in Sources */,
 				9161AC182311167700CD29E2 /* MASConstraint.m in Sources */,
 				9161AC112311167700CD29E2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -402,6 +431,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				910A5F242310ED480076F020 /* Base */,
+				9161AC2323112C2500CD29E2 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -410,8 +440,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				910A5F292310ED4A0076F020 /* Base */,
+				9161AC2423112C2500CD29E2 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9161AC2923112CC400CD29E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9161AC2A23112CD700CD29E2 /* zh-Hans */,
+				9161AC2B23112D1D00CD29E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9161AC3023112D9900CD29E2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9161AC2F23112D9900CD29E2 /* zh-Hans */,
+				9161AC3123112DA100CD29E2 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -421,6 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -480,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -542,7 +593,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yx.draw.drawingBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yx.rawingBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -561,7 +612,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yx.draw.drawingBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yx.rawingBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
