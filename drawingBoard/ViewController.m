@@ -17,6 +17,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    [self.view addSubview:btn];
+
+    [btn mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.height.mas_equalTo(150);
+        make.left.equalTo(self.view).offset(100);
+        make.right.equalTo(self.view).offset(-100);
+        make.centerY.equalTo(self.view);
+    }];
+    
+    btn.backgroundColor = [UIColor grayColor];
+    [btn setTitle:@"按钮" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    
 }
 
 
