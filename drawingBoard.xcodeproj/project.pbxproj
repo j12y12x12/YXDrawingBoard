@@ -51,6 +51,7 @@
 		910A5F3D2310ED4A0076F020 /* drawingBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawingBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		910A5F412310ED4A0076F020 /* drawingBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawingBoardUITests.m; sourceTree = "<group>"; };
 		910A5F432310ED4A0076F020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9161ABED2310F1C800CD29E2 /* drawingBoard.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawingBoard.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 				910A5F282310ED4A0076F020 /* LaunchScreen.storyboard */,
 				910A5F2B2310ED4A0076F020 /* Info.plist */,
 				910A5F2C2310ED4A0076F020 /* main.m */,
+				9161ABED2310F1C800CD29E2 /* drawingBoard.pch */,
 			);
 			path = drawingBoard;
 			sourceTree = "<group>";
@@ -437,6 +439,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7K9Y2T37HD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = drawingBoard/drawingBoard.pch;
 				INFOPLIST_FILE = drawingBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +458,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7K9Y2T37HD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = drawingBoard/drawingBoard.pch;
 				INFOPLIST_FILE = drawingBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
