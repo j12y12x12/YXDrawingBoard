@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		910A5F1F2310ED480076F020 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A5F1E2310ED480076F020 /* AppDelegate.m */; };
-		910A5F222310ED480076F020 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A5F212310ED480076F020 /* ViewController.m */; };
-		910A5F252310ED480076F020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910A5F232310ED480076F020 /* Main.storyboard */; };
+		910A5F222310ED480076F020 /* YXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A5F212310ED480076F020 /* YXViewController.m */; };
 		910A5F272310ED4A0076F020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910A5F262310ED4A0076F020 /* Assets.xcassets */; };
 		910A5F2A2310ED4A0076F020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910A5F282310ED4A0076F020 /* LaunchScreen.storyboard */; };
 		910A5F2D2310ED4A0076F020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 910A5F2C2310ED4A0076F020 /* main.m */; };
@@ -30,6 +29,12 @@
 		9161AC222311202100CD29E2 /* YXImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9161AC212311202100CD29E2 /* YXImageManager.m */; };
 		9161AC2723112CC400CD29E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9161AC2923112CC400CD29E2 /* InfoPlist.strings */; };
 		9161AC2E23112D9900CD29E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9161AC3023112D9900CD29E2 /* Localizable.strings */; };
+		9161AC342311308800CD29E2 /* YXBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9161AC332311308800CD29E2 /* YXBoardView.m */; };
+		9161AC3A2311503300CD29E2 /* back_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9161AC362311503300CD29E2 /* back_01.jpg */; };
+		9161AC3B2311503300CD29E2 /* back_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9161AC372311503300CD29E2 /* back_04.jpg */; };
+		9161AC3C2311503300CD29E2 /* back_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9161AC382311503300CD29E2 /* back_02.jpg */; };
+		9161AC3D2311503300CD29E2 /* back_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9161AC392311503300CD29E2 /* back_03.jpg */; };
+		9161AC402312384E00CD29E2 /* YXDrawPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9161AC3F2312384E00CD29E2 /* YXDrawPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +58,8 @@
 		910A5F1A2310ED480076F020 /* drawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		910A5F1D2310ED480076F020 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		910A5F1E2310ED480076F020 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		910A5F202310ED480076F020 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		910A5F212310ED480076F020 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		910A5F242310ED480076F020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		910A5F202310ED480076F020 /* YXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXViewController.h; sourceTree = "<group>"; };
+		910A5F212310ED480076F020 /* YXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXViewController.m; sourceTree = "<group>"; };
 		910A5F262310ED4A0076F020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		910A5F292310ED4A0076F020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		910A5F2B2310ED4A0076F020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,12 +102,19 @@
 		9161AC1E23111F7100CD29E2 /* UIView+UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewExt.h"; sourceTree = "<group>"; };
 		9161AC202311202100CD29E2 /* YXImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXImageManager.h; sourceTree = "<group>"; };
 		9161AC212311202100CD29E2 /* YXImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXImageManager.m; sourceTree = "<group>"; };
-		9161AC2323112C2500CD29E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		9161AC2423112C2500CD29E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		9161AC2A23112CD700CD29E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		9161AC2B23112D1D00CD29E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9161AC2F23112D9900CD29E2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		9161AC3123112DA100CD29E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9161AC322311308800CD29E2 /* YXBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXBoardView.h; sourceTree = "<group>"; };
+		9161AC332311308800CD29E2 /* YXBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXBoardView.m; sourceTree = "<group>"; };
+		9161AC362311503300CD29E2 /* back_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back_01.jpg; sourceTree = "<group>"; };
+		9161AC372311503300CD29E2 /* back_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back_04.jpg; sourceTree = "<group>"; };
+		9161AC382311503300CD29E2 /* back_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back_02.jpg; sourceTree = "<group>"; };
+		9161AC392311503300CD29E2 /* back_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back_03.jpg; sourceTree = "<group>"; };
+		9161AC3E2312384E00CD29E2 /* YXDrawPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXDrawPoint.h; sourceTree = "<group>"; };
+		9161AC3F2312384E00CD29E2 /* YXDrawPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXDrawPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +145,7 @@
 		910A5F112310ED480076F020 = {
 			isa = PBXGroup;
 			children = (
+				9161AC352311502400CD29E2 /* image */,
 				9161AC1C23111F5D00CD29E2 /* tools */,
 				9161ABF52311166D00CD29E2 /* 3rdParty */,
 				910A5F1C2310ED480076F020 /* drawingBoard */,
@@ -158,13 +170,16 @@
 			children = (
 				910A5F1D2310ED480076F020 /* AppDelegate.h */,
 				910A5F1E2310ED480076F020 /* AppDelegate.m */,
-				910A5F202310ED480076F020 /* ViewController.h */,
-				910A5F212310ED480076F020 /* ViewController.m */,
+				910A5F202310ED480076F020 /* YXViewController.h */,
+				910A5F212310ED480076F020 /* YXViewController.m */,
 				9161ABF1231114EB00CD29E2 /* YXNavigationController.h */,
 				9161ABF2231114EB00CD29E2 /* YXNavigationController.m */,
+				9161AC322311308800CD29E2 /* YXBoardView.h */,
+				9161AC332311308800CD29E2 /* YXBoardView.m */,
+				9161AC3E2312384E00CD29E2 /* YXDrawPoint.h */,
+				9161AC3F2312384E00CD29E2 /* YXDrawPoint.m */,
 				9161AC3023112D9900CD29E2 /* Localizable.strings */,
 				9161AC2923112CC400CD29E2 /* InfoPlist.strings */,
-				910A5F232310ED480076F020 /* Main.storyboard */,
 				910A5F262310ED4A0076F020 /* Assets.xcassets */,
 				910A5F282310ED4A0076F020 /* LaunchScreen.storyboard */,
 				910A5F2B2310ED4A0076F020 /* Info.plist */,
@@ -241,6 +256,17 @@
 				9161AC212311202100CD29E2 /* YXImageManager.m */,
 			);
 			path = tools;
+			sourceTree = "<group>";
+		};
+		9161AC352311502400CD29E2 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				9161AC362311503300CD29E2 /* back_01.jpg */,
+				9161AC382311503300CD29E2 /* back_02.jpg */,
+				9161AC392311503300CD29E2 /* back_03.jpg */,
+				9161AC372311503300CD29E2 /* back_04.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,10 +374,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9161AC2E23112D9900CD29E2 /* Localizable.strings in Resources */,
+				9161AC3A2311503300CD29E2 /* back_01.jpg in Resources */,
 				910A5F2A2310ED4A0076F020 /* LaunchScreen.storyboard in Resources */,
 				9161AC2723112CC400CD29E2 /* InfoPlist.strings in Resources */,
+				9161AC3D2311503300CD29E2 /* back_03.jpg in Resources */,
+				9161AC3C2311503300CD29E2 /* back_02.jpg in Resources */,
 				910A5F272310ED4A0076F020 /* Assets.xcassets in Resources */,
-				910A5F252310ED480076F020 /* Main.storyboard in Resources */,
+				9161AC3B2311503300CD29E2 /* back_04.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +408,7 @@
 				9161AC192311167700CD29E2 /* MASViewConstraint.m in Sources */,
 				9161AC1A2311167700CD29E2 /* MASViewAttribute.m in Sources */,
 				9161ABF3231114EB00CD29E2 /* YXNavigationController.m in Sources */,
-				910A5F222310ED480076F020 /* ViewController.m in Sources */,
+				910A5F222310ED480076F020 /* YXViewController.m in Sources */,
 				9161AC1F23111F7100CD29E2 /* UIView+UIViewExt.m in Sources */,
 				9161AC162311167700CD29E2 /* NSArray+MASAdditions.m in Sources */,
 				9161AC122311167700CD29E2 /* ViewController+MASAdditions.m in Sources */,
@@ -387,11 +416,13 @@
 				910A5F2D2310ED4A0076F020 /* main.m in Sources */,
 				9161AC172311167700CD29E2 /* View+MASAdditions.m in Sources */,
 				9161AC222311202100CD29E2 /* YXImageManager.m in Sources */,
+				9161AC402312384E00CD29E2 /* YXDrawPoint.m in Sources */,
 				9161AC142311167700CD29E2 /* MASConstraintMaker.m in Sources */,
 				9161AC182311167700CD29E2 /* MASConstraint.m in Sources */,
 				9161AC112311167700CD29E2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				9161AC152311167700CD29E2 /* MASLayoutConstraint.m in Sources */,
 				910A5F1F2310ED480076F020 /* AppDelegate.m in Sources */,
+				9161AC342311308800CD29E2 /* YXBoardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,15 +458,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		910A5F232310ED480076F020 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				910A5F242310ED480076F020 /* Base */,
-				9161AC2323112C2500CD29E2 /* zh-Hans */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		910A5F282310ED4A0076F020 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -589,6 +611,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = drawingBoard/drawingBoard.pch;
 				INFOPLIST_FILE = drawingBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -608,6 +631,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = drawingBoard/drawingBoard.pch;
 				INFOPLIST_FILE = drawingBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

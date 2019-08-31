@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YXViewController.h
 //  drawingBoard
 //
 //  Created by jin on 2019/8/24.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface YXViewController : UIViewController
 
 
 @end
